@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <style>
-body{background-image: url('bmi.jpg');
+body{background-color: rgb(233, 165, 120) ;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
@@ -14,7 +14,7 @@ p {text-align: center;}
 h4 {text-align: right;}
 form {text-align: center;}
 label {font-size: larger;}
-input {border-radius: 5px;}
+input {border-radius: 8px;}
     table, th, td {
   border:1px solid rgb(39, 21, 190);
   text-align: left;
@@ -24,6 +24,7 @@ input {border-radius: 5px;}
   border-color:rgb(8, 9, 105);}
   th {font-size: larger;}
   tr:hover {background-color: #bd9bbd;}
+  #btn:hover {background-color: rgb(42, 172, 42);}
 </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,14 +41,14 @@ input {border-radius: 5px;}
   <input type="radio" id="Female" name="Gender" value="Female"required>
   <label style="color:rgb(108, 7, 155);" for="Female"><b>Female</b></label><br><br>
    <label style="color:red;" for="age"><b>Age</b></label><br><br>
-   <input type="text" id="age" name="age" placeholder="Enter age"required maxlength="4" size="9" style="background-color: aqua;font-size: medium;font-weight: bold;text-align: center;"><br><br>
+   <input type="text" id="age" name="age" placeholder="Enter age"required maxlength="4" size="10" style="background-color: aqua;font-size: medium;font-weight: bold;text-align: center;"><br><br>
    <label style="color:red;" for="weight"><b>Weight (Kgs)</b></label><br><br>
    <input type="text" id="weight" name="weight" placeholder="Enter weight" required maxlength="4" size="11" style="background-color: aqua;font-size: medium;font-weight: bold;text-align: center;"><br><br>
    <label style="color:red;" for="height"><b>Height (ft-inch)</b></label><br><br>
-   <input type="text" id="height" name="height" placeholder="Enter height" required maxlength="4" size="13" style="background-color: aqua;font-size: medium;font-weight: bold;text-align: center;"><br><br><br>
-   <button type="submit" style="font-size: larger;color: black;background-color:orange;" onclick="getbmivalue()"> Calculate</button><br><br><br>
+   <input type="text" id="height" name="height" placeholder="Enter height" required maxlength="4" size="12" style="background-color: aqua;font-size: medium;font-weight: bold;text-align: center;"><br><br><br>
+   <button type="submit" id="btn" style="font-size: larger;color: rgb(71, 2, 17); border-radius: 8px; font-weight:lighter;" onclick="getbmivalue()"> Calculate</button><br><br><br>
    <label style="color:red;" for="Your BMI value"><b>Your BMI Value</b></label><br><br>
-   <input type="text" id="Your BMI value" name="Your BMI value"  maxlength="4" size="14" style="background-color: aqua;font-size: medium;font-weight: bold;text-align: center;">
+   <input type="text" id="Your BMI value" name="Your BMI value"  maxlength="4" size="13" style="background-color: aqua;font-size: medium;font-weight: bold;text-align: center;border-radius: 8px;">
    </form><br>
    <h2 style="color:rgb(1, 85, 1);">A healthy BMI ranges between 18.5 and 25</h2>
    <script>
