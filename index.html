@@ -24,6 +24,11 @@ input {border-radius: 8px;}
   th {font-size: larger;}
   tr:hover {background-color: #bd9bbd;}
   #btn:hover {background-color: rgb(42, 172, 42);}
+  #text{
+    text-decoration: none;
+    font-style: italic;
+  }
+
 </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,8 +36,8 @@ input {border-radius: 8px;}
     <title>BMI CALCULATOR</title>
 </head>
 <body>
-    <h1 style="color:blue;">BMI CALCULATOR</h1>
-    <p style="font-size:140%"><b>Body mass index (BMI) is a person's weight in kilograms divided by the square of height in meters.<br> It is a measure of body fat based on height and weight that applies to adults.<br> <a style="transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);" href="https://www.ifafitness.com/book/images/BMI-chart.jpg" target="_blank">View the BMI Chart</a> or use the tool below to calculate yours.</b></p><br>
+    <h1 style="color:rgba(2, 99, 17, 0.881);">BMI CALCULATOR</h1>
+    <p style="font-size:140%"><b>Body mass index (BMI) is a person's weight in kilograms divided by the square of height in meters.<br> It is a measure of body fat based on height and weight that applies to adults.<br> <a id= "text" style="transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);" href="https://www.ifafitness.com/book/images/BMI-chart.jpg" target="_blank">View the BMI chart</a> or use the tool below to calculate yours.</b></p><br>
     <form onsubmit="return false">
   <label style="color:red;" for="lname"><b>Gender:</b></label>
   <input type="radio" id="Male" name= "Gender" value= "male" required>
