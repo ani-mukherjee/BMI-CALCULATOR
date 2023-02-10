@@ -41,9 +41,9 @@ input {border-radius: 8px;}
     <form onsubmit="return false">
   <label style="color:red;" for="lname"><b>Gender:</b></label>
   <input type="radio" id="Male" name= "Gender" value= "male" required>
-  <label style="color:rgb(117, 0, 117);" for="Male"><b>Male</b></label>
+  <label style="color:rgb(8, 115, 245);" for="Male"><b>Male</b></label>
   <input type="radio" id="Female" name="Gender" value="Female"required>
-  <label style="color:rgb(117, 2, 117);" for="Female"><b>Female</b></label><br><br>
+  <label style="color:rgb(8, 115, 245);" for="Female"><b>Female</b></label><br><br>
    <label style="color:red;" for="age"><b>Age</b></label><br><br>
    <input type="text" id="age" name="age" placeholder="Enter age"required maxlength="4" size="10" style="background-color: aqua;font-size: medium;font-weight: bold;text-align: center;"><br><br>
    <label style="color:red;" for="weight"><b>Weight (Kgs)</b></label><br><br>
@@ -62,7 +62,7 @@ input {border-radius: 8px;}
     height = height * 12;
     height = height * 0.025;
     var bmivalue = weight / (height*height);
-    bmivalue =  Math.round(bmivalue); // math.round is used for whole number(not fraction number)
+    bmivalue = bmivalue.toFixed(2); // math.round is used for whole number(not fraction number)
     document.getElementById('Your BMI value').value = bmivalue;
     }
    </script><br><br>
