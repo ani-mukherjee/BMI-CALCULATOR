@@ -29,6 +29,13 @@ input {border-radius: 8px;}
     text-decoration: none;
     font-style: italic;
   }
+  a:hover{
+    background-color: yellow;
+    border-radius: 8px;
+    border-color: blue;
+    font-style: italic;
+    font-size: larger;
+  }
 
 </style>
     <meta charset="UTF-8">
@@ -38,7 +45,7 @@ input {border-radius: 8px;}
 </head>
 <body>
     <h1 style="color:rgb(2, 99, 17);">BMI CALCULATOR</h1>
-    <p style="font-size:140%"><b>Body mass index (BMI) is a person's weight in kilograms divided by the square of height in meters.<br> It is a measure of body fat based on height and weight that applies to adults.<br> <a id= "text" style="transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);" href="https://www.ifafitness.com/book/images/BMI-chart.jpg" target="_blank">View the BMI chart</a> or use the tool below to calculate yours.</b></p><br>
+    <p style="font-size:140%"><b>Body mass index (BMI) is a person's weight in kilograms divided by the square of height in meters.<br> It is a measure of body fat based on height and weight that applies to adults.<br> <a id= "text" style="transition: cubic-bezier(0.175, 0.885, 0.32, 1.275); padding: 2px;" href="https://www.ifafitness.com/book/images/BMI-chart.jpg" target="_blank">View the BMI chart</a> or use the tool below to calculate yours.</b></p><br>
     <form onsubmit="return false">
   <label style="color:red;" for="lname"><b>Gender:</b></label>
   <input type="radio" id="Male" name= "Gender" value= "male" required>
@@ -110,7 +117,7 @@ input {border-radius: 8px;}
       <img src="https://images.everydayhealth.com/images/diet-nutrition/weight/bmi-in-adults-722x406.jpg" alt="bmi-chart" width="1330" height="450"><br><br><br>
    <h2><u>FAQs on BMI</U></h2>
    <h3 style="font-size:120%;"><b>
-    <ul>
+    <ul style="margin-right: 10px;">
     <li>What is BMI?<br>
     BMI is an acronym for Body Mass Index, and it is an indicator of the amount of fat which is stored in the human body. It provides a measure of the appropriateness of your weight to your height,
     based on health issues which are known to arise as a result of having a BMI which is too low or too high.</li><br><br>
@@ -134,7 +141,7 @@ input {border-radius: 8px;}
 </ul>
     </h3><br>
     <h4 style="font-size:125%"><b>
-    Read more about BMI on <a href="https://en.wikipedia.org/wiki/Body_mass_index" target="_blank" style="text-decoration: none;font-style: italic;"> Wikipedia </a>
+    Read more about BMI on <a href="https://en.wikipedia.org/wiki/Body_mass_index" target="_blank" style="text-decoration: none;font-style: italic; margin-right: 8px; padding: 5px;"> Wikipedia </a>
     </b>
     </h4>
 </body>
