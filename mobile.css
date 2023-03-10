@@ -1,14 +1,6 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/*small devices (phones, 900px and down) */
+@media only screen and (max-width: 900px) {
 .image{
-    width: 350px;
+    width: 360px;
 }
-
-}
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .image{
-        width: 750px;
-    }
-
 }
