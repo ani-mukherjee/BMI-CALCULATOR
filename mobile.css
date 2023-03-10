@@ -1,6 +1,8 @@
-/*small devices (phones, 700px and down) */
-@media only screen and (max-width: 700px) {
+/*small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
 .image{
-    width: 350px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
 }
 }
