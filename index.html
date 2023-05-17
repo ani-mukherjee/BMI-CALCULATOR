@@ -4,7 +4,10 @@
 <head>
 <style>
   *{margin: 5;
-  padding: 5;}
+    padding: 5;
+    box-sizing: border-box;
+    text-align: justify;
+}
 body{background-color: rgba(240, 203, 179, 0.603) ;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -14,7 +17,7 @@ p {text-align: center;}
 h4 {text-align: right;}
 form {text-align: center;}
 label {font-size: larger;}
-input {border-radius: 8px;}
+input {border-radius: 8px}
     table, th, td {
   border:1px solid rgb(39, 21, 190);
   text-align: left;
@@ -60,7 +63,7 @@ input {border-radius: 8px;}
    <input type="text" id="age" name="age" placeholder="Enter age"required maxlength="4" size="10" style="background-color: aqua;font-size: medium;font-weight: bold;text-align: center;"><br><br>
    <label style="color:red;" for="weight"><b>Weight (Kgs)</b></label><br><br>
    <input type="text" id="weight" name="weight" placeholder="Enter weight" required maxlength="4" size="11" style="background-color: aqua;font-size: medium;font-weight: bold;text-align: center;"><br><br>
-   <label style="color:red;" for="height"><b>Height (ft-inch)</b></label><br><br>
+   <label style="color:red;" for="height"><b>Height (ft.inch)</b></label><br><br>
    <input type="text" id="height" name="height" placeholder="Enter height" required maxlength="4" size="12" style="background-color: aqua;font-size: medium;font-weight: bold;text-align: center;"><br><br><br>
    <button type="submit" id="btn" style="font-size: 22px;color: rgb(0, 51, 255); border-radius: 8px; font-weight:400;" onclick="getbmivalue()"> Calculate</button><br><br><br>
    <label style="color:red;" for="Your BMI value"><b>Your BMI Value</b></label><br><br>
